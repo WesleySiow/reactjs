@@ -1,0 +1,20 @@
+const person = {
+  name: 'Max'
+};
+
+//spread operator
+const secondPerson = {
+  ...person
+};
+
+person.name = 'Manu';
+
+console.log(secondPerson);
+
+
+/*Output
+[object Object] {
+  age: 78,
+  name: "Max"
+}
+*/
