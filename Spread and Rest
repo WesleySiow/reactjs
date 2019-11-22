@@ -19,6 +19,13 @@ const newPerson = {
 
 console.log(newPerson);
 
+/*Output
+[object Object] {
+  age: 78,
+  name: "Max"
+}
+*/
+
 
 //REST operator
 const filter = (...args) => {
